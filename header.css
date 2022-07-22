@@ -1,0 +1,48 @@
+.logo-jc {
+   width: 140px;
+   margin: 4em 0 1.5em 0;
+   border-radius: 5rem;
+   -webkit-border-radius: 5rem;
+   -moz-border-radius: 5rem;
+   -ms-border-radius: 5rem;
+   -o-border-radius: 5rem;
+}
+
+.body_header__section {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: flex-start;
+   align-items: center;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+
+.body_vh {
+   height: 70%;
+}
+
+.color_title_primary {
+   color:var(--color-primario);
+   font-weight: bold;
+   text-align: left;
+}
+
+.color_title_primary:not(:last-of-type):after {
+   content: " / ";
+}
+
+.description {
+   text-align: center;
+   line-height: 1.4;
+   max-width: 40rem;
+   margin: 0 0 3rem 0;
+}
+
+.text_italic {
+   font-style: italic;
+}
+
+.estudios-titulos {
+   margin: 1em 0 1em 0;
+   text-align: center;
+}

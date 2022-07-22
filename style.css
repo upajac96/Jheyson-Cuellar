@@ -1,0 +1,86 @@
+:root {
+	--color-primario: #29648C;
+	--color-secundario: #bed95c;
+	--color-blanco: #fff;
+	--color-titulos: #222;
+	--color-gris: #b2b2b2;
+}
+
+* { 
+   font-family: helvetica, arial;
+   margin: 0;
+   font-size: 14px;
+   /*outline:0.5px solid red;*/
+}
+
+:focus { outline: 1px solid var(--color-secundario); }
+
+/*BODY HOME*/
+body {
+   width: 100%;
+}
+
+.body__section {
+   display: block;
+}
+
+/*BODY END*/
+
+/*SECTION HOME*/
+.section__h1 {
+   padding: 0.5rem 0 1rem 2rem;
+   font-size: 1.5rem;
+}
+
+.section__infoexp {
+   display: flex;
+   flex-flow: row nowrap;
+}
+
+.section__infoexp-ul {
+   margin: 0.5em 0 0 0;
+}
+
+.section__infoexp>ul>li{
+   padding: 0.5em 0 0 1em;
+}
+
+.infoexp__datos{
+   width: 5em;
+   margin: 0 1.5em 0 0;
+}
+
+.infoexp__datosb {
+   font-weight: bold;
+   opacity: 0.75;
+}
+
+.infoexp__datosb:before {
+   content: ":";
+   margin: 0 0.3em 0 0;
+}
+
+.section__infoexp > a {
+   font-weight: 600;
+   opacity: 0.80;
+}
+
+.section__infoexp-empresas {
+   padding: 0 0 0 0;
+   margin: 0.5rem 1.5rem;
+}
+/*SECTION END*/
+
+/* SECTION FORMLAB*/
+.section__formacion {
+   font-size: 1.2em;
+   margin: 0 0 1em 1.5em;
+}
+
+.section__formacion > a {
+   opacity: 0.75;
+}
+
+.section__formlab {
+   margin: 1em 0;
+}
